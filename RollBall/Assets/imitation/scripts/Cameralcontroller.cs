@@ -3,13 +3,13 @@ using System.Collections;
 
 public class Cameralcontroller : MonoBehaviour
 {
-    public GameObject player;
+    public GameObject players;
     private Vector3 offset;
 
     // Use this for initialization
     void Start()
     {
-        offset = transform.position - player.transform.position;
+        offset = transform.position - players.transform.position;
 
     }
 
